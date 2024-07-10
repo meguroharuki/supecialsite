@@ -45,6 +45,10 @@ header ul{
 }
 .intro_corner{
     background-color: #fffff1;
+    padding-bottom: 200px;
+}
+.corner_title{
+    padding-top: 150px;
 }
 .corner_title h2{
     font-size: 36px;
@@ -56,6 +60,7 @@ header ul{
     text-align: center;
     line-height: 170%;
     padding-bottom: 130px;
+    font-size: 18px;
 }
 #history{
     display: flex;
@@ -139,4 +144,50 @@ header ul{
     100%{left:85%;opacity:0}
 }
 
-
+/*フッター*/
+.end{
+    background-color: #f8ef17;
+    margin: 0;
+    padding: 0;
+}
+.end a{
+    color: black;
+}
+.end p{
+    padding-left: 40px;
+    padding-top: 50px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.end ul{
+    text-align: left;
+}
+.end li{
+    padding: 10px 0;
+}
+.Ls_1{
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 10%;
+    padding-bottom: 20px;
+}
+.end nav li:first-child{
+    font-weight: bold
+}
+.Ls_1:last-child{
+    padding-right: 100px;
+}
+.sns_icon{
+    margin: 0;
+    background-color: #f8ef17;
+}
+.sns_icon ul{
+    margin: 0;
+    display: flex;
+}
+.sns_icon li{
+    padding: 10px;
+}
+.sns_icon li:first-child{
+    padding-left: 50px;
+}
