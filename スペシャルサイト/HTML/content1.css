@@ -35,8 +35,65 @@ header ul{
     bottom: 0;
     left: 132px;
 }
-
-
+/*コンテンツ*/
+#title_color{
+    font-size: 58px;
+    color: #f8ef17;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    margin: 0;
+    text-align: center;
+    padding-top: 150px;
+    font-weight: lighter;
+   
+}
+.content_title p{
+    color: gray;
+    margin: 0;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+.menu{
+    background-color: #f8ef17;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 11px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+.menu_num{
+    font-size: 48px;
+    padding-left: 60px;
+}
+.menu_title{
+    font-size: 30px;
+    margin: 0;
+}
+.menu_title h2{
+    margin: 0;
+    padding-top: 30px;
+    padding-left: 10%;
+}
+.menu_list ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding-bottom: 30px;
+}
+.menu_list li{
+    background-color: #fffcde;
+    padding: 0 5%;
+    margin: 10px 40px;
+}
+.menu_img{
+    width: 200px;
+    height: 141px;
+    padding-right: 20px;
+    padding-top: 15px;
+}
 
 /*フッター*/
 .end{
